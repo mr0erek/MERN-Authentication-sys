@@ -34,3 +34,13 @@
 **Open a New Terminal and paste**
 - `cd backend; npm install`
 - `npm start`
+>[!NOTE]
+>Do not forget to create a new `.env` file in backend dir
+>also do add given named variables : `JWT_SECRET`, `MONGO_CONNECT_URI` and `PORT`
+
+**Example**: 
+```bash
+JWT_SECRET=ABCD@1234                # It can be ANYTHING, as per your wish
+MONGO_CONNECT_URI=<DB_LINK>
+PORT=8080
+```
