@@ -96,3 +96,6 @@ Full-Stack Authentication System with MERN Stack
 
 - **User Schema and signup/login endpoints**:
     - [See Schema](backend/README.md)
+- **How to start locally**:
+    - [Step 1](frontend/README.md)
+    - [Step 2](backend/README.md#to-start-backend-server-locally)
