@@ -94,41 +94,5 @@ Full-Stack Authentication System with MERN Stack
 ## 5. Role-Based Authentication Implementation
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=8000&pause=871&color=F70000&width=605&lines=Admin+Roles+will+assign+soon,+%20working+on+it+.+.+." alt="Typing SVG" /></a>
 
-- **User Schema**:
-    1. `Signup validation filter`
-       ```javascript
-       const signupValidation = (req, res, next)=>{
-       const schema = Joi.object({
-          name: Joi.string().min(3).max(100).required(),
-          email: Joi.string().email().required(),
-          password: Joi.string().min(8).max(100).required()
-       });
-       
-       const {error} = schema.validate(req.body);
-          if(error){
-             return res.status(400)
-             .json({message: "Bad request", error })
-          }
-          next();
-       }
-       ```
-
-    2. `Login validation filter`
-       ```javascript
-          const loginValidation = (req, res, next)=>{
-	        const schema = Joi.object({
-		         email: Joi.string().email().required(),
-		         password: Joi.string().min(8).max(100).required()
-	        });
-	        const {error} = schema.validate(req.body);
-	           if(error){
-		           return res.status(400)
-		           .json({message: "Bad request", error })
-	           }
-	           next();
-          }
-       ```
-### User Login and Signup Endpoints:
-  - https://github.com/mr0erek/MERN-Authentication-sys/blob/c04324a83972876887cb296ff5e9d8cf5cb49205/backend/Controllers/AuthController.js#L1-L80
-  - https://github.com/mr0erek/MERN-Authentication-sys/blob/c04324a83972876887cb296ff5e9d8cf5cb49205/backend/Controllers/AuthController.js#L1-L80
-  - https://github.com/mr0erek/MERN-Authentication-sys/blob/c04324a83972876887cb296ff5e9d8cf5cb49205/backend/Routes/AuthRouter.js#L1-L13  
+- **User Schema and signup/login endpoints**:
+    - [See Schema](backend/README.md)
