@@ -1,3 +1,53 @@
+### Tree Structure:
+```
+MERN-Authentication-sys
+                      ├── LICENSE
+                      ├── README.md
+                      ├── backend
+                      │         ├── Controllers
+                      │         │             └── AuthController.js
+                      │         ├── Middlewares
+                      │         │             ├── Auth.js
+                      │         │             └── AuthValidation.js
+                      │         ├── Models
+                      │         │        ├── User.js
+                      │         │        └── db.js
+                      │         ├── Routes
+                      │         │        ├── AuthRouter.js
+                      │         │        └── ProductRouter.js
+                      │         ├── index.js
+                      │         ├── package-lock.json
+                      │         └── package.json
+                      ├── frontend
+                      ├── README.md
+                      ├── package-lock.json
+                      ├── package.json
+                      ├── public
+                      │        ├── favicon.ico
+                      │        ├── index.html
+                      │        ├── logo192.png
+                      │        ├── logo512.png
+                      │        ├── manifest.json
+                      │        └── robots.txt
+                      └── src
+                            ├── App.css
+                            ├── App.js
+                            ├── App.test.js
+                            ├── RefreshHandler.js
+                            ├── index.css
+                            ├── index.js
+                            ├── logo.svg
+                            ├── pages
+                            │       ├── Home.js
+                            │       ├── Login.js
+                            │       └── Signup.js
+                            ├── reportWebVitals.js
+                            ├── setupTests.js
+                            └── utils.js
+
+                      
+```
+
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=8000&pause=871&color=F70000&width=435&lines=This+Repo+is+underconstruction+.+.+." alt="Typing SVG" /></a>
 # MERN-Authentication-sys
 Full-Stack Authentication System with MERN Stack
