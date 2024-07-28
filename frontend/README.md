@@ -1,3 +1,33 @@
+### Directory Tree Structure:
+```
+├── frontend
+           ├── README.md
+           ├── package-lock.json
+           ├── package.json
+           ├── public
+           │        ├── favicon.ico
+           │        ├── index.html
+           │        ├── logo192.png
+           │        ├── logo512.png
+           │        ├── manifest.json
+           │        └── robots.txt
+           └── src
+               ├── App.css
+               ├── App.js
+               ├── App.test.js
+               ├── RefreshHandler.js
+               ├── index.css
+               ├── index.js
+               ├── logo.svg
+               ├── pages
+               │       ├── Home.js
+               │       ├── Login.js
+               │       └── Signup.js
+               ├── reportWebVitals.js
+               ├── setupTests.js
+               └── utils.js
+
+```
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
