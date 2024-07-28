@@ -30,4 +30,7 @@
   
   3. https://github.com/mr0erek/MERN-Authentication-sys/blob/c04324a83972876887cb296ff5e9d8cf5cb49205/backend/Routes/AuthRouter.js#L1-L14
 
-### 
+### TO Start Backend Server Locally:
+**Open a New Terminal and paste**
+- `cd backend; npm install`
+- `npm start`
