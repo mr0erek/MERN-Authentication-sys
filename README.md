@@ -47,12 +47,14 @@ MERN-Authentication-sys
 
                       
 ```
+# WireFrame
+<img src="https://raw.githubusercontent.com/mr0erek/MERN-Authentication-sys/main/.imgs/mern_struct.webp" alt='MERN WireFrame' width="50%"  height="50%">
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=8000&pause=871&color=F70000&width=435&lines=This+Repo+is+underconstruction+.+.+." alt="Typing SVG" /></a>
 # MERN-Authentication-sys
 Full-Stack Authentication System with MERN Stack
 ---
-> <img src="https://raw.githubusercontent.com/mr0erek/MERN-Authentication-sys/main/.imgs/MERN.jpeg" alt="MERN-STACK.img" width="50%" height="50%" >
+> <img src="https://raw.githubusercontent.com/mr0erek/MERN-Authentication-sys/main/.imgs/MERN.jpeg" alt="MERN-STACK.img">
 # High-Level Documentation for MERN Full-Stack Authentication System
 
 ## 1. Introduction
